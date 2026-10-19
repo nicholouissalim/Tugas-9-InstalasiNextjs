@@ -1,5 +1,4 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,8 +18,8 @@ export default function Home() {
     >
       <h1>Nicho Louis Salim</h1>
       <p>NIM: 535250095</p>
-      <a
-        href="/kopi-nusantara/index.html"
+      <Link
+        href="/kopi-nusantara"
         style={{
           marginTop: "16px",
           padding: "12px 28px",
@@ -32,7 +31,7 @@ export default function Home() {
         }}
       >
         Buka Website Kopi Nusantara
-      </a>
+      </Link>
     </main>
   );
 }
